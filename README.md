@@ -1,7 +1,10 @@
 MFixx: Fixed MFizz icons
 ========================
 
-<img src="figure-1.png" width="650" alt="276 ⇒ 18 points" />
+<picture>
+	<source alt="276 ⇒ 18 points" width="650" srcset="figure-1.svg#dark" media="(prefers-color-scheme: dark)"/>
+	<img    alt="276 ⇒ 18 points" width="650" src   ="figure-1.svg"/>
+</picture>
 
 This is an optimised version of the [MFizz icon font](https://github.com/fizzed/font-mfizz/) produced for the [File-Icons package](https://github.com/file-icons/atom).
 Enhancements include:

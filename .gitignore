@@ -27,3 +27,7 @@ node_modules
 components
 npm-debug.log
 .apl.history
+
+
+## Project-specific
+/README.html

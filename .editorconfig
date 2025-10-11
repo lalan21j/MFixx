@@ -4,13 +4,20 @@ root = true
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
-trim_trailing_whitespace = true
-indent_style = tab
-indent_size = 4
-
-[*.{md,php}]
 trim_trailing_whitespace = false
+indent_style = tab
+spelling_language = en-AU
 
-[*.{yml,reek,rviz,yaml}]
+[*.{yaml,yml}]
 indent_style = space
 indent_size = 4
+
+[{COMMIT_EDITMSG,MERGE_MSG}]
+trim_trailing_whitespace = true
+max_line_length = 72
+indent_style = space
+indent_size = 4
+
+[svg/*.svg]
+trim_trailing_whitespace = false
+insert_final_newline = false
